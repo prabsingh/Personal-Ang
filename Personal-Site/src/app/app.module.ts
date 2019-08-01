@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactMePageComponent } from './components/contact-me-page/contact-me-page.component';
 import { WorkHistoryComponent } from './components/work-history/work-history.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { EducationComponent } from './components/education/education.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactMePageComponent,
-    WorkHistoryComponent
+    WorkHistoryComponent,
+    AboutMeComponent,
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
