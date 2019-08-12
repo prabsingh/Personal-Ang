@@ -1,2 +1,13 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<router-outlet></router-outlet>
+<mat-toolbar color="primary" class="navbar">
+    <div >
+        Prabhdeep Singh
+    </div>
+    <div>  
+        <span routerLink='/AboutMe' routerLinkActive="active">About Me</span>
+        <span routerLink='/Education' routerLinkActive="active">Education</span>
+        <span routerLink='/WorkHistory' routerLinkActive="active">Work History</span>
+        <span routerLink='/Skills' routerLinkActive="active">Skills</span>
+        <span routerLink='/ContactMe' routerLinkActive="active">Contact Me</span>
+    </div>
+</mat-toolbar>
+<router-outlet> </router-outlet>
